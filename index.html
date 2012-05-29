@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+	<meta charset="UTF-8">
+		<TITLE>Welcome to Crazylabel</TITLE>
+		<LINK REL="stylesheet" TYPE="text/css"
+				HREF="style.css">
+	</HEAD>
+	<BODY>
+	<SECTION id="header">
+	<DIV id="logo">
+		<A HREF="/" TITLE="Home"><H1>Crazylabel</H1></A>
+	</DIV>
+<!--	<A HREF="index.html"><IMG class="logo" src="/images/crazylabel-2009.gif"></IMG></A> -->
+	<NAV>
+	<UL>
+		<LI>Shop</LI>
+		
+		<LI>Toys</LI>
+		<LI><A HREF="/artists">Artists</A></LI>
+		<LI>Press</LI>
+		<LI>Wholesale</LI>
+		<LI>Contact</LI>
+	</UL>
+	</NAV>
+	</SECTION>
+	<BR>
+<!-- HTML5 Javascript demo -->	
+	<div style="text-align:center"> 
+	
+<!--  <button onclick="playPause()">Play/Pause</button>  -->
+
+ 
+  <video id="video1" width=80% controls poster="/images/droplet2.png">
+    <source src="/videos/droplet2.m4v" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script type="text/javascript"> 
+var myVideo=document.getElementById("video1"); 
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+
+</script> 
+	
+<section class="tab">
+	<P>Welcome!</P>
+<!--	<BR> -->
+</section>
+
+<section class="body">
+
+	<IMG id="front" SRC="/images/random/white-580px.jpg" alt="initial white screen" name="RandomImg" />
+	<script type="text/javascript">
+	var rand_no = Math.floor(3 * Math.random());
+	
+	document.images['RandomImg'].src="/images/random/img" + rand_no + ".jpg";
+	</script>
+	
+	<blockquote class="style2"><span>We are <DIV class="brand">Crazylabel</DIV>.  <BR><BR>
+	<DIV class="slogan">We tell amazing stories through designer vinyl toys and other interesting media.</DIV></span></blockquote>
+<!--		<P class="welcome">We are Crazylabel.  We tell amazing stories through designer vinyl toys and other interesting media.</P> -->
+		<BR class="clearboth">
+
+		
+	<section id="justreleased">
+		<HR>
+		<H2>Just Released!</H2>
+		<div class="thumbnail">
+			<A HREF="/">
+				<img src="/images/justreleased/1000teddies-150px.jpg" alt="1000 Teddies" width="150" height="130"><br>
+				1000 Teddies</A> 
+		</div>
+		<div class="thumbnail">
+			<A HREF="/">
+				<img src="/images/justreleased/Treeson2-150px.jpg" alt="1000 Teddies" width="150" height="130"><br>
+				Treeson Series 2</A> 
+		</div>
+		<div class="thumbnail">
+			<A HREF="/">
+				<img src="/images/justreleased/holmini-150px.jpg" alt="1000 Teddies" width="150" height="130"><br>
+				House of Liu</A> 
+		</div>
+		<div class="thumbnail">
+			<A HREF="/">
+				<img src="/images/justreleased/qing-150px.jpg" alt="1000 Teddies" width="150" height="130"><br>
+				Qing Soldier</A> 
+		</div>
+		<BR class="clearboth">
+	</section>		
+		
+</section>
+
+
+		
+		
+	<FOOTER>
+		<UL>
+			
+			<LI>Follow us on <A HREF="http://www.twitter.com/crazylabel/">Twitter</A></LI>
+			<LI>Like us on Facebook</LI>
+			<LI>Check our portfolio on Behance</LI>
+			<LI>Browse our social catalogue on Pinterest</LI>
+			</UL>
+		<HR>
+		<div id="copyright">
+		<P>Crazylabel is a trademark of WOOKIEWEB.COM<BR>
+		<!-- This is a comment -->
+		
+		Copyright (c) 2005-2012 WOOKIEWEB.COM.  All Rights Reserved.
+		</P>
+		</div>
+	</FOOTER>
+	</BODY>
+</HTML>
