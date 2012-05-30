@@ -152,13 +152,16 @@ blockquote.style2 {
   padding-left: 30px;
   padding-right: 140px;
   margin: 5px;
+  padding-top:20%;
 
   }
   blockquote.style2 span {
-    	display: block;
+  	font-weight: bold;
+	display: inline; 
+  /*  	display: block;
     	padding-right:1em;
     	vertical-align: text-bottom;
-    	padding-top:20%;
+    	padding-top:20%; */
   	}  	
 
   	
@@ -209,14 +212,14 @@ DIV.brand {
 }
 
 SPAN.brand {
-/*
+
 	font-weight: bold;
-	display: inline; */
+	display: inline; 
 }
 
 .brand {
-/*		font-weight: bold;
-	display: inline; */
+		font-weight: bold;
+	display: inline; 
 }
 DIV.slogan {
 	font-size: smaller;
