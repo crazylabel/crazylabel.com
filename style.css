@@ -197,7 +197,7 @@ text-align: center;
 section.artistbio {
 	width: 60%;	
 	padding: 1em;
-	border-right: 1px solid gray;
+	border-right: 1px dotted gray; 
 	display:inline-block;
 }
 
