@@ -77,9 +77,21 @@ NAV LI {
 	text-shadow: 0px 1px 0px #edc859;
 }
 
+nav a {
+	-webkit-border-radius: 15px;
+	padding: 5px;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+nav li a:hover, nav li a:focus {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
 NAV A:link {
 	color:#563300;
 	background-color: transparent;
+	text-decoration: none;
 }
 
 NAV A:visited {
