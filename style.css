@@ -271,13 +271,17 @@ DIV.slogan {
 	font-weight: bold;
 }
 
+/* --------------- CSS for iPhone ------------------ */
+
 @media screen and (max-device-width: 480px) {
 #logo {
 	background: url(/images/crazylabel-2009@2x.gif) no-repeat;
 	width: 100%; 
-	height: 160px;
-	float: left;
-	position:inherit;  
+	height: 120px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+/*	position:inherit;   */
 }
 
 #logo A {
@@ -307,8 +311,9 @@ NAV A:visited {
 }
 
 NAV UL {
-	padding-top: 120px;
+/*	padding-top: 120px; */
 /*	border: black 1px solid;   */
+width: 100%;
 
 }
 
@@ -340,6 +345,76 @@ aside {
 /*	float: right; 
 	display: inline;
 	border: black 1px solid;  */
+}
+
+FOOTER li {
+	font-size: 3.0em;
+	
+}
+
+blockquote.style2 {
+	font-size: 1.8em;
+}
+
+SECTION.tab {
+	color:#563300;
+	background-color: #f8f8f8;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	height:30px;
+	width:250px;
+	transform: rotate(270deg);
+	transform-origin: bottom left;
+	-webkit-transform: rotate(270deg); 
+	-webkit-transform-origin: bottom left; 
+	position: absolute; 
+	margin-top: 220px;
+	
+}
+
+SECTION.tab P {
+	font-size:1.5em;
+	font-weight: bold;
+	color: #4b3105;
+	background-color: transparent;
+	padding: 5px;
+	font-style: normal;
+	text-align: center;
+	margin-top: -1px;
+}
+
+blockquote.style1 {
+  font-size:2.0em;
+  font-style:italic;
+  padding: 8px;
+  margin: 5px;
+  background-image: url(images/openquote1.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  }
+  blockquote.style1 span {
+    	display: block;
+    	background-image: url(images/closequote1.gif);
+    	background-repeat: no-repeat;
+    	background-position: bottom right;
+    	padding-right:1em;
+  	}
+
+.thumbnail
+{
+float: left;
+width: 300px;
+margin: 0 15px 15px 35px;
+padding: 5px;
+text-align: center;
+font-size: 2.0em;
+}
+
+.thumbnail img {
+	width: 120px;
+	height: 120px;
 }
 
 }
