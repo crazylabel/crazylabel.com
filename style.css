@@ -256,10 +256,10 @@ SPAN.brand {
 
 #justreleased h2 {
 /*	margin-left: 1.5em; */
-	font-size: 50%;
+	font-size: 2em;
 	display:block;
 	width: 100%;
-	background-color:#f34242;
+/*	background-color:#f34242; */
 }
 
 #copyright {
