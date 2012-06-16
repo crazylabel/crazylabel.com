@@ -16,13 +16,15 @@ p.welcome {font-size: 2em;
 	background: url(/images/crazylabel-2009.gif) no-repeat;
 	width: 220px;
 	height: 80px;
-	float: left;
+	float: left; 
+	display: inline;
+/*	border: black 1px solid;  */
 }
 
 #logo a {
 	display: inline-block;
 	width: 200px;
-	height: 80px;
+	height: 60px;
 /*	border: black 1px solid;  */
 }
 
@@ -62,14 +64,23 @@ body a:visited {
 	background-color: transparent;
 }
 
+/*
 img.logo {
 	float: left;
 	padding-right: 1em;
 	vertical-align: text-bottom;
 }
+*/
+
 footer {
 	font-size: 0.9em;
 	text-shadow: 0px 1px 0px #edc859;
+}
+
+nav {
+	float: right;
+/*	border: black 1px solid;  */
+	
 }
 
 nav li {
@@ -102,7 +113,7 @@ nav a:visited {
 }
 
 nav ul {
-	padding-top: 16px;
+	padding-top: 12px;
 /*	border: black 1px solid;   */
 
 }
@@ -117,6 +128,9 @@ nav ul {
 	padding-right:2em;
 	margin-right:5em;
 	box-shadow: 2px 2px 5px #805903;
+/*	border: red 1px solid;  */
+	display: block;
+	margin-top: 50px;
 }
 
   	
@@ -137,7 +151,8 @@ nav ul {
 	-webkit-transform: rotate(270deg);
 	-webkit-transform-origin: bottom left;
 	position: absolute; 
-	margin-top: 120px;
+	margin-top: 170px;
+/*	border: red 1px solid;  */
 }
 
 #tab P {
@@ -260,6 +275,7 @@ SPAN.brand {
 
 #justreleased .thumbnail {
 	margin-left: 15px;
+	margin-top: 15px;
 }
 
 #justreleasedtab {
@@ -308,18 +324,25 @@ SPAN.brand {
 	background: url(/images/crazylabel-2009@2x.gif) no-repeat;
 	width: 100%; 
 	height: 120px;
-	float: none;
+	float: left;
 	margin-left: auto;
 	margin-right: auto;
+	display: inline;
 /*	position:inherit;   */
 }
+
+
 
 #logo a {
 	display: inline-block;
 	width: 420px;
-	height: 100px;
+	height: 60px;
 	position: absolute; 
 /*	border: red 1px solid;    */
+}
+
+nav {
+	margin-top: -40px;
 }
 
 nav li {
@@ -399,7 +422,7 @@ blockquote.style2 {
 	-webkit-transform: rotate(270deg); 
 	-webkit-transform-origin: bottom left; 
 	position: absolute; 
-	margin-top: 220px;
+	margin-top: 370px;
 	
 }
 
@@ -412,6 +435,10 @@ blockquote.style2 {
 	font-style: normal;
 	text-align: center;
 	margin-top: -1px;
+}
+
+#contentpage {
+	margin-top: 150px;
 }
 
 blockquote.style1 {
@@ -445,6 +472,11 @@ blockquote.style1 span {
 .thumbnail img {
 	width: 120px;
 	height: 120px;
+}
+
+#justreleased .thumbnail {
+	margin-left: 15px;
+	margin-top: 40px;
 }
 
 #justreleasedtab {
