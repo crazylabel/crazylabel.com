@@ -271,7 +271,7 @@ DIV.slogan {
 	font-weight: bold;
 }
 
-/* --------------- CSS for iPhone ------------------ */
+/* --------------- Start of CSS for iPhone ------------------ */
 
 @media screen and (max-device-width: 480px) {
 #logo {
@@ -418,3 +418,4 @@ font-size: 2.0em;
 }
 
 }
+/* --------------- End of CSS for iPhone ------------------ */
