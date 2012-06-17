@@ -356,9 +356,10 @@ SPAN.brand {
 	width: 100%; 
 	height: 120px;
 	float: left;
+/*	position: relative; */
 	margin-left: auto;
 	margin-right: auto;
-	display: inline;
+	display: inline; 
 /*	position:inherit;   */
 }
 
