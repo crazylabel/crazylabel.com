@@ -448,6 +448,17 @@ aside {
 	border: black 1px solid;  */
 }
 
+.timeline {
+	font-size: 0.3em;
+	width: 100%;
+}
+
+.timeline .thumbnail img{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
 footer li {
 	font-size: 2.0em;
 	
@@ -549,6 +560,8 @@ blockquote.style1 span {
 	margin-top: -170px;
 	margin-left: -45px;
 }
+
+
 
 }
 /* --------------- End of CSS for iPhone ------------------ */
