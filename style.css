@@ -324,11 +324,27 @@ SPAN.brand {
 	font-weight: bold;
 }
 
-#treesonimage {
-	display: inline;
+
+#treesonimage, #circleboyimage, #pinbimage {
 	float: left;
 	margin-right: 0.8em;
+	text-align: center;
 }
+
+#renimage, #newspaperboyimage {
+	float: right;
+	margin-left: 0.8em;
+	text-align: center;
+}
+
+.greybg {
+	background-color: #fbfbfb;
+	display: block;
+	height: 10em;
+	padding: 1em;
+}
+
+
 
 .video-container {
 	position: relative;
