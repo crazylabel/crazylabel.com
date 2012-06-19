@@ -237,6 +237,13 @@ aside {
 	padding-left: 0px;
 }
 
+.date {
+	text-decoration: underline;
+	font-size: 0.8em;
+	font-weight: bold;
+	
+}
+
 aside ul {
 /*	background-color: gray; */
 }
@@ -364,7 +371,7 @@ SPAN.brand {
 	height: 100%;
 }
 
-/* --------------- Start of CSS for iPhone ------------------ */
+/* --------------- Start of CSS for iPhone ----------------------------------------------- */
 
 @media screen and (max-device-width: 480px) {
 #logo {
@@ -448,15 +455,26 @@ aside {
 	border: black 1px solid;  */
 }
 
+
 .timeline {
 	font-size: 0.3em;
 	width: 100%;
 }
 
-.timeline .thumbnail img{
-	width: 100%;
-	height: auto;
+.timeline .date {
+	font-size: 3em;
+}
+
+.timeline .thumbnail {
+	width: 40%; /* control the width of thumbnail in the timeline */
+/*		border: solid black 1px; */
+}
+.timeline .thumbnail img{	
+	height: auto; 
+	width: 10em;
 	text-align: center;
+
+	
 }
 
 footer li {

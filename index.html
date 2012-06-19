@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="UTF-8">
+		<meta charset="UTF-8">
 		<title>Welcome to Crazylabel</title>
 		<link rel="stylesheet" type="text/css"
 				href="/style.css">
@@ -10,6 +10,7 @@
 				-->
 	</head>
 	<body>
+	<script src="/scripts/jquery-1.7.2.js"></script>
 <div id="wrapper">
 	<section id="header">
 		<div id="logo">
@@ -36,10 +37,16 @@
 
 	<div id="contentpage">
 		<img id="front" SRC="/images/random/white-580px.jpg" alt="initial white screen" />
+			
 		<script type="text/javascript">
 			var rand_no = Math.floor(3 * Math.random());
 			document.images['front'].src="/images/random/img" + rand_no + ".jpg";
+			$(document).ready(function() {
+				$("#front").fadeIn(500);
+			});
 		</script>
+	
+
 	
 		<blockquote class="style2">We are <span class="brand">Crazylabel</span>. 
 			<br><br>
@@ -55,12 +62,14 @@
 			
 			<div class="thumbnail">
 				<a href="/">
-				<img src="/images/justreleased/1000teddies-150px.jpg" alt="1000 Teddies" width="150" height="130"><br>
+				<img src="/images/justreleased/1000teddies-150px.jpg" alt="1000 Teddies" width="150" height="130">
+			<br>
 				1000 Teddies</a> 
 			</div>
 			<div class="thumbnail">
 				<a href="/">
-				<img src="/images/justreleased/Treeson2-150px.jpg" alt="1000 Teddies" width="150" height="130"><br>
+				<img src="/images/justreleased/Treeson2-150px.jpg" alt="1000 Teddies" width="150" height="130">
+				<br>  
 				Treeson Series 2</a> 
 			</div>
 			<div class="thumbnail">
@@ -76,7 +85,7 @@
 				<br class="clearboth">
 		</div>	<!-- End of Div id="justreleased" -->	 
 		
-	</div> <!-- End of Div id="frontpage" -->	
+	</div> <!-- End of Div id="contentpage" -->	
 		
 	<footer>
 		<ul>
@@ -94,5 +103,7 @@
 		</div>
 	</footer>
 </div> <!-- End of Wrapper -->
+
+
 </body>
 </html>
